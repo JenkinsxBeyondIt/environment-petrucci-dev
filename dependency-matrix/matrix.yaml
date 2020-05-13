@@ -1,0 +1,7 @@
+dependencies:
+- host: github.com
+  owner: it-beyondit
+  repo: metropolis
+  url: https://github.com/it-beyondit/metropolis.git
+  version: ""
+  versionURL: ""

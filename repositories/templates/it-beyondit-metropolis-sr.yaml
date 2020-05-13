@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: it-beyondit
+    provider: github
+    repository: metropolis
+  name: it-beyondit-metropolis
+spec:
+  description: Imported application for it-beyondit/metropolis
+  httpCloneURL: https://github.com/it-beyondit/metropolis.git
+  org: it-beyondit
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: metropolis
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/it-beyondit/metropolis.git
