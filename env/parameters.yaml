@@ -1,0 +1,10 @@
+adminUser:
+  password: local:petrucci/adminUser:password
+  username: admin
+enableDocker: false
+pipelineUser:
+  email: jenkinsx@beyondit.it
+  token: local:petrucci/pipelineUser:token
+  username: JenkinsxBeyondIt
+prow:
+  hmacToken: local:petrucci/prow:hmacToken
